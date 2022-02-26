@@ -1,0 +1,33 @@
+
+.container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    background-image: url(../media/1200px-Image_created_with_a_mobile_phone.png);
+    background-size: cover;
+    background-position: center;
+}
+.two{
+    background-image: url(../media/e5e9e175cd5157de00f85d8829c51a25.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.three{
+    background-image: url(../media/images.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.four{
+    background-image: url(../media/photo-1541963463532-d68292c34b19.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.one,.two,.three,.four{
+    content: '';
+    width: 3rem;
+    height: 20rem;
+    border-radius: 1.5rem;
+    margin-right: 2rem;
+}
